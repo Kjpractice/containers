@@ -1,4 +1,4 @@
-FROM alpine:3.15.0
+FROM alpine:3.15.9
 LABEL distro="Linux" MAINTAINER="pascal kantapareddy" os="ubuntu"
 ENV CONTAINER_USER="kantapareddy pascal"
 RUN adduser -S -D ${CONTAINER_USER}
